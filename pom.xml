@@ -81,9 +81,13 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+					<arguments>
+						--debug
+					</arguments>
 				</configuration>
 			</plugin>
 		</plugins>
 	</build>
+
 
 </project>
